@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-demo-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "admin:dev": "pnpm -C ./admin dev",
+    "admin:build": "pnpm -C ./admin build",
+    "admin:start": "pnpm -C ./admin start",
+    "admin:lint": "pnpm -C ./admin lint",
+    "admin:install": "pnpm -C ./admin install",
+    "admin:db:generate": "pnpm -C ./admin db:generate",
+    "admin:db:push": "pnpm -C ./admin db:push",
+    "admin:db:studio": "pnpm -C ./admin db:studio",
+    "store:dev": "pnpm -C ./store dev",
+    "store:build": "pnpm -C ./store build",
+    "store:start": "pnpm -C ./store start",
+    "store:lint": "pnpm -C ./store lint",
+    "store:install": "pnpm -C ./store install",
+    "init": "pnpm run admin:install && pnpm run store:install && pnpm run admin:db:generate && pnpm run admin:db:push",
+    "dev": "pnpm run admin:dev & pnpm run store:dev",
+    "start": "pnpm run admin:start & pnpm run store:start"
+  },
+  "repository": {
+    "url": "https://github.com/arvind-iyer-2001/ecommerce-demo-monorepo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
