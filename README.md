@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce-Demo Applications
+This is an Ecommerce Service, quite similar to Shopify. There is an Admin Dashboard to Manage all your stores and their metrics. For each store, a website can be created, by just deploying the store application and setting the environment variables.
 
 ## Technologies used
 - Next 13 (App Router)
@@ -10,6 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - React Hook Forms
 - Prisma
 - Stripe
+- Axios
 
 ## Getting Started
 0. Clone this repository
